@@ -1,4 +1,5 @@
-# Germán Andrés Xander 2024
+# Resolución ejercicio termostato
+# IoT - 2026
 
 from mqtt_as import MQTTClient
 from mqtt_local import config
