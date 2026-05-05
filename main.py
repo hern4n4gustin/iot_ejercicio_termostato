@@ -28,10 +28,6 @@ ID_PLACA = binascii.hexlify(machine.unique_id()).decode()
 #   - El modo puede ser "auto" o "manual"
 state = {"setpoint": 25.0, "periodo": 10, "modo": "auto", "rele": 0}
 
-# =========================
-# PERSISTENCIA
-# =========================
-
 # Función para guardar el estado del relé en memoria, luego se puede cargar y leerlo.
 def guardar_estado():
 
